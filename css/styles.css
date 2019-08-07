@@ -1,0 +1,93 @@
+/* line 1, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+body {
+  font-family: 'Muli', sans-serif; }
+
+/* line 5, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+#wrap {
+  background: url(../images/background-ic.png) top left no-repeat;
+  min-height: 100vh;
+  background-size: 55%; }
+  /* line 10, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+  #wrap .main {
+    padding-top: 10%; }
+    /* line 13, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+    #wrap .main .logo {
+      width: 100%; }
+      /* line 16, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .logo img {
+        width: 250px;
+        height: auto;
+        margin: auto;
+        display: block; }
+    /* line 24, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+    #wrap .main .content {
+      margin-top: 40px; }
+      /* line 28, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content h2.title {
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-weight: bold; }
+      /* line 37, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content h4.title-gr {
+        font-weight: normal;
+        font-size: 16px;
+        margin-bottom: 15px; }
+      /* line 46, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content .form-group label {
+        font-size: 14px;
+        color: #545454; }
+      /* line 53, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content .form-check label {
+        font-size: 14px;
+        color: #545454; }
+      /* line 60, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content .text-desc p {
+        font-size: 14px;
+        color: #20286b;
+        font-style: italic;
+        margin-bottom: 5px; }
+      /* line 68, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content .gr-button {
+        margin-top: 30px; }
+        /* line 71, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+        #wrap .main .content .gr-button button {
+          padding: 5px 35px;
+          margin: 0 5px; }
+      /* line 80, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content a.change-folder {
+        color: #007bff;
+        cursor: pointer;
+        font-size: 28px;
+        display: block;
+        transform: translateX(-20px); }
+      /* line 88, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content a.change-time {
+        color: #007bff;
+        cursor: pointer;
+        font-size: 22px;
+        display: block;
+        transform: translate(-10px, 3px); }
+      /* line 99, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+      #wrap .main .content .main-gr-btn a {
+        display: block;
+        margin-bottom: 15px;
+        background-image: linear-gradient(to right, #ffedc2, #fac5c6);
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+        padding: 10px 0;
+        border-radius: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: .1s; }
+        /* line 111, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+        #wrap .main .content .main-gr-btn a:hover {
+          background-image: linear-gradient(to right, #ffc736, #ee3e42);
+          color: #fff; }
+
+/* line 123, /Users/vuvankhai/Desktop/PhanmemKT/css/styles.scss */
+.fw-600 {
+  font-weight: 600; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,433 @@
+/* line 1, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+body {
+  background: #adc8e6;
+  font-size: 14px; }
+
+/* line 6, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.topbar ul li.user-account .dropdown-toggle:hover {
+  background: #2c3e50 !important; }
+
+/* line 12, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.menu-primary li a {
+  display: block;
+  padding: 0 20px;
+  text-transform: uppercase; }
+  /* line 17, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .menu-primary li a:hover {
+    background: #2c3e50 !important; }
+
+/* line 24, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.margin-tp-5 {
+  margin-top: 5px; }
+
+/* line 29, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.user-name i {
+  transform: translateY(3px); }
+
+/* line 34, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.margin-bt-10 {
+  margin-bottom: 10px; }
+
+/* line 38, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.margin-tp-15 {
+  margin-top: 15px; }
+
+/* line 44, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.custom-select {
+  height: calc(1.8rem);
+  padding: .15rem 1.35rem .15rem .75rem;
+  font-size: 13px; }
+
+/* line 51, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.h4,
+h4 {
+  font-size: 1.1rem; }
+
+/* line 56, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.d-flex {
+  flex-wrap: wrap; }
+
+/* line 60, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.thead-blue {
+  background: #adc8e6; }
+
+/* line 64, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.card-blue {
+  background: #cbdcf0; }
+
+/* line 68, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.easy-table {
+  background: #ffffff; }
+  /* line 71, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .easy-table tr:nth-child(even) {
+    background: #f7f7f7; }
+
+/* line 76, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+table {
+  width: 100%;
+  table-layout: fixed; }
+  /* line 80, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  table tr {
+    font-weight: 600; }
+  /* line 84, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  table td {
+    font-weight: 400; }
+
+/* line 89, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.tbl-header {
+  background-color: #adc8e6; }
+
+/* line 93, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid #adc8e6; }
+  /* line 99, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .tbl-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+    background-color: #fff; }
+  /* line 104, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .tbl-content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff; }
+  /* line 109, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .tbl-content::-webkit-scrollbar-thumb {
+    background-color: #f26f21; }
+
+/* line 115, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.gr-btn-action a {
+  display: inline-block;
+  background: #cbdcf0;
+  padding: 5px 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+  /* line 122, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .gr-btn-action a.active {
+    background: #2c3e50;
+    color: #fff; }
+  /* line 127, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .gr-btn-action a:hover {
+    color: #000; }
+
+/* line 133, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase; }
+
+/* line 142, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  color: #000;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1); }
+
+/* line 150, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.right-dl {
+  display: flex;
+  flex-direction: initial !important;
+  justify-content: flex-end; }
+  /* line 155, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .right-dl span {
+    width: 90px; }
+  /* line 159, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .right-dl .dl {
+    width: 100px;
+    transform: translateY(-4px); }
+
+/* line 165, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.card .card-title {
+  font-size: 17px;
+  font-weight: bold; }
+
+/* line 170, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.card-body h4 {
+  font-size: 17px;
+  font-weight: bold; }
+
+/* line 175, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.hotline {
+  transform: translateY(12px);
+  position: relative; }
+  /* line 179, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .hotline span {
+    display: block;
+    line-height: 20px;
+    font-size: 16px; }
+  /* line 185, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .hotline i {
+    position: absolute;
+    top: 50%;
+    transform: rotate(110deg);
+    left: -25px;
+    font-size: 20px;
+    top: 10px; }
+
+/* line 197, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.custom-dr li {
+  background: #2c3e50 !important; }
+
+/* line 203, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.user-account.show a {
+  background: #2c3e50 !important; }
+
+/* line 210, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.dropdown-menu .dropdown a {
+  position: relative; }
+  /* line 213, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .dropdown-menu .dropdown a i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); }
+
+/* line 226, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.plv li a {
+  text-transform: uppercase;
+  display: block;
+  padding: 0 10px; }
+  /* line 231, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .plv li a:hover {
+    background: #2c3e50 !important; }
+
+/* line 241, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.title-a2 {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold; }
+  /* line 246, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .title-a2 img {
+    height: 28px;
+    transform: translateY(-3px);
+    width: auto; }
+
+/* line 253, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.data-link {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  /* line 258, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .data-link li {
+    margin-bottom: 8px;
+    width: 100%; }
+    /* line 263, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .data-link li a::before {
+      content: "\f054";
+      font-family: 'Font Awesome\ 5 Free';
+      font-weight: 900;
+      font-size: 10px;
+      padding-right: 5px; }
+    /* line 271, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .data-link li a:hover {
+      color: #f26f20; }
+
+/* line 279, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.itemw .item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  position: relative; }
+  /* line 285, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .itemw .item::before {
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ffc836, #ee3c42); }
+
+/* line 297, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.itemw .menu-tool-bar {
+  background: #2c3e50;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 10px 15px; }
+  /* line 303, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .itemw .menu-tool-bar a {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 35px; }
+    /* line 308, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .itemw .menu-tool-bar a:hover {
+      color: #f26f20; }
+    /* line 312, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .itemw .menu-tool-bar a.aprev {
+      margin-right: 9px;
+      font-size: 20px; }
+    /* line 317, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .itemw .menu-tool-bar a.anext {
+      font-size: 20px; }
+    /* line 322, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .itemw .menu-tool-bar a.disable {
+      color: #959ea9; }
+
+/* line 328, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.itemw .frm-main {
+  background: #cbdcf0;
+  padding: 10px;
+  margin-bottom: 15px; }
+  /* line 333, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .itemw .frm-main form {
+    border: 1px solid #bfc9d4;
+    padding: 10px; }
+    /* line 337, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .itemw .frm-main form label {
+      font-weight: 600; }
+
+/* line 344, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+h3 {
+  font-size: 16px;
+  color: #2c3e50;
+  font-weight: bold; }
+
+/* line 350, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.big-wrap {
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 354, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .big-wrap li {
+    width: 50%; }
+
+/* line 360, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.frm-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  /* line 365, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .frm-button button {
+    margin: 0 5px;
+    width: 100px; }
+
+/* line 371, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.dt-result {
+  margin-top: 10px; }
+  /* line 375, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .dt-result table th {
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px; }
+  /* line 382, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .dt-result table tr td {
+    border-right: 1px solid #cbdcf0; }
+
+/* line 390, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.phantrang {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end; }
+  /* line 395, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .phantrang ul {
+    margin: 0; }
+    /* line 399, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+    .phantrang ul li a {
+      border-radius: 0 !important;
+      color: #000;
+      font-size: 12px; }
+
+/* line 408, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.xct {
+  display: block;
+  width: 120px;
+  background: #f26f21;
+  padding: 5px 0;
+  color: #fff; }
+
+/* line 416, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.tb-detail {
+  margin-top: 20px; }
+  /* line 420, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .tb-detail table th {
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px; }
+  /* line 427, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .tb-detail table tr td {
+    border-right: 1px solid #cbdcf0; }
+
+/* line 434, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.form-group {
+  margin-bottom: .3rem; }
+
+/* line 438, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.tool-navbar {
+  border-bottom: 1px solid #bfc9d3; }
+
+/* line 443, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.lbtn-action a {
+  background: #cbdcf0;
+  display: inline-block;
+  padding: 7px 20px;
+  font-weight: 600; }
+  /* line 448, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .lbtn-action a:hover {
+    color: #000; }
+  /* line 451, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .lbtn-action a.active {
+    background: #f26f21;
+    color: #fff; }
+
+/* line 458, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.lbtn-action-blue {
+  text-align: right; }
+  /* line 460, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .lbtn-action-blue a {
+    background: #11ab6b;
+    display: inline-block;
+    padding: 7px 20px;
+    font-weight: 600;
+    color: #fff; }
+
+/* line 469, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+.bt-frm {
+  margin-top: 15px; }
+  /* line 471, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .bt-frm label {
+    font-weight: 600; }
+  /* line 476, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .bt-frm .lbtn-action-blue a {
+    padding: 5px 10px; }
+
+@media screen and (min-width: 992px) {
+  /* line 484, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-5 {
+    padding-left: 5px;
+    padding-right: 5px; }
+  /* line 489, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-r-10 {
+    padding-right: 10px; }
+  /* line 493, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-0 {
+    padding-left: 0;
+    padding-right: 0; }
+  /* line 498, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-r-0 {
+    padding-right: 0; }
+  /* line 502, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-r-5 {
+    padding-right: 5px; }
+  /* line 506, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-l-0 {
+    padding-left: 0; }
+  /* line 510, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-l-10 {
+    padding-left: 10px;
+    padding-right: 0; }
+  /* line 515, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .margin-0 {
+    margin-left: 0;
+    margin-right: 0; }
+  /* line 520, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .pd-only-l-10 {
+    padding-left: 10px; }
+  /* line 524, /Users/vuvankhai/Desktop/PhanmemKT/css/custom.scss */
+  .margin-0-5 {
+    margin-left: -5px;
+    margin-right: -5px; } }
+
+/*# sourceMappingURL=custom.css.map */

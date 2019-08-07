@@ -1,0 +1,51 @@
+@media screen and (min-width: 992px) {
+  /* line 2, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pdr-5 {
+    padding-right: 5px; }
+  /* line 6, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pdr-10 {
+    padding-right: 10px; }
+  /* line 10, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pdr-0 {
+    padding-right: 0; }
+  /* line 14, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pdl-0 {
+    padding-left: 0; }
+  /* line 18, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pd-5 {
+    padding: 5px; }
+  /* line 22, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .mgbt-10 {
+    margin-bottom: 10px; }
+  /* line 26, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  .pdt-5-100 {
+    padding-top: 30% !important; } }
+
+@media screen and (max-width: 768px) {
+  /* line 32, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+  #wrap {
+    background-size: cover;
+    position: relative; }
+    /* line 36, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+    #wrap::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(255, 255, 255, 0.8);
+      z-index: 1; }
+    /* line 47, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+    #wrap .main {
+      position: relative;
+      z-index: 2; }
+      /* line 55, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+      #wrap .main .content h2.title {
+        font-size: 22px; }
+      /* line 61, /Users/vuvankhai/Desktop/PhanmemKT/css/responsive.scss */
+      #wrap .main .content h4.title-gr {
+        margin-top: 20px;
+        margin-bottom: 10px; } }
+
+/*# sourceMappingURL=responsive.css.map */

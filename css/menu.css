@@ -1,0 +1,129 @@
+/* line 1, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.dropdown-menu {
+  padding: 0;
+  margin: 0;
+  border: 0 solid transition !important;
+  border: 0 solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+/* line 11, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu a,
+.navbar-default .navbar-nav > li > a,
+.mainmenu ul li a,
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  display: block !important;
+  text-transform: uppercase;
+  padding: 0 25px; }
+
+/* line 23, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .active a,
+.mainmenu .active a:focus,
+.mainmenu .active a:hover,
+.mainmenu li a:hover,
+.mainmenu li a:focus,
+.navbar-default .navbar-nav > .show > a,
+.navbar-default .navbar-nav > .show > a:focus,
+.navbar-default .navbar-nav > .show > a:hover {
+  color: #fff;
+  text-transform: uppercase;
+  outline: 0; }
+
+/*==========Sub Menu=v==========*/
+/* line 37, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul > li:hover > a {
+  background: #2c3e50; }
+
+/* line 41, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul ul > li:hover > a,
+.navbar-default .navbar-nav .show .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .show .dropdown-menu > li > a:hover {
+  background: #d86b29; }
+
+/* line 47, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul ul ul > li:hover > a {
+  background: #b16538; }
+
+/* line 51, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul ul,
+.mainmenu .collapse ul ul.dropdown-menu {
+  background: #2c3e50; }
+
+/* line 56, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul ul ul,
+.mainmenu .collapse ul ul ul.dropdown-menu {
+  background: #2c3e50; }
+
+/* line 61, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu .collapse ul ul ul ul,
+.mainmenu .collapse ul ul ul ul.dropdown-menu {
+  background: #2c3e50; }
+
+/******************************Drop-down menu work on hover**********************************/
+/* line 67, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.mainmenu {
+  background: none;
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+/* line 75, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+.topbar ul li .dropdown-menu li a {
+  color: #f8f8f8;
+  border-color: #3e4d5d; }
+
+@media only screen and (min-width: 767px) {
+  /* line 81, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul li:hover > ul {
+    display: block; }
+  /* line 85, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    display: none; }
+  /*******/
+  /* line 94, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul li {
+    position: relative; }
+  /* line 98, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul li:hover > ul {
+    display: block; }
+  /* line 102, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 250px;
+    display: none; }
+  /*******/
+  /* line 111, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul ul li {
+    position: relative; }
+  /* line 115, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul ul li:hover ul {
+    display: block; }
+  /* line 119, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .mainmenu .collapse ul ul ul ul {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    min-width: 250px;
+    display: none;
+    z-index: 1; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 131, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .navbar-nav .show .dropdown-menu .dropdown-menu > li > a {
+    padding: 16px 15px 16px 35px; }
+  /* line 135, /Users/vuvankhai/Desktop/PhanmemKT/css/menu.scss */
+  .navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a {
+    padding: 16px 15px 16px 45px; } }
+
+/*# sourceMappingURL=menu.css.map */
