@@ -50,7 +50,7 @@
             <div class="topbar">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-1 hidden-xs">
+                        <div class="col-md-auto hidden-xs">
                             <div class="logo">
                                 <a href="/">
                                     <span class="logo-emblem"><img src="images/logo.png" /></span>
@@ -61,53 +61,132 @@
                                 <i class="feather icon-menu"></i>
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-auto pd-l-0">
                             <nav class="navbar navbar-light navbar-expand-lg mainmenu">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav mr-auto">
-                                        <li class="active"><a href="#">Hệ thống <span class="sr-only">(current)</span></a></li>
-                                        <li><a href="#">Danh mục</a></li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tiện ích</a>
+                                    <ul class="navbar-nav mr-auto pd-l-0">
+                                       <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hệ thống</a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li><a href="#">Something else here</a></li>
+                                                <li><a href="#">Ngày hạch toán</a></li>
+                                                <li><a href="#">Nhật ký truy cập</a></li>
+                                                <li><a href="#">Tùy chọn</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh mục</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a href="#">Cơ cấu tổ chức</a></li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown2 <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a href="#">Action</a></li>
-                                                        <li><a href="#">Another action</a></li>
-                                                        <li><a href="#">Something else here</a></li>
-                                                        <li class="dropdown">
-                                                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown3</a>
-                                                        </li>
+                                                        <li><a href="#">Hệ thống tài khoản</a></li>
+                                                        <li><a href="#">Tài khoản kết chuyển</a></li>
+                                                        <li><a href="#">Tài khoản ngầm định</a></li>
+                                                        <li><a href="#">Định khoản tự động</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Đối tượng <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Khách hàng</a></li>
+                                                        <li><a href="#">Nhà cung cấp</a></li>
+                                                        <li><a href="#">Nhân viên</a></li>
+                                                        <li><a href="#">Nhóm KH/NCC</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vật tư hàng hóa, CCDC, TSCĐ <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Vật tư hàng hóa</a></li>
+                                                        <li><a href="#">Kho</a></li>
+                                                        <li><a href="#">Đơn vị tính</a></li>
+                                                        <li><a href="#">Loại VTHH</a></li>
+                                                        <li><a href="#">Công cụ dụng cụ</a></li>
+                                                        <li><a href="#">Tài sản cố định</a></li>
+                                                        <li><a href="#">Loại TSCĐ</a></li>
+                                                        <li><a href="#">Nhóm HHDV chịu thuế TTĐB</a></li>
+                                                        <li><a href="#">Biểu thuế tài nguyên</a></li>
+                                                        <li><a href="#">Định mức NVL</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ngân hàng <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Ngân hàng</a></li>
+                                                        <li><a href="#">Tài khoản ngân hàng</a></li>
+                                                        <li><a href="#">Thẻ tín dụng</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lương nhân viên <i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Ký hiệu chấm công</a></li>
+                                                        <li><a href="#">Biểu thuế thu nhập cá nhân</a></li>
+                                                        <li><a href="#">Quy định lương, thuế, bảo hiểm</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thống kê, chi phí<i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Đối tượng tập hợp chi phí</a></li>
+                                                        <li><a href="#">Khoản mục chi phí</a></li>
+                                                        <li><a href="#">Mã thống kê</a></li>
+                                                        <li><a href="#">Mục thu - chi</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Khác<i data-brackets-id="3993" class="feather icon-chevron-down down-arrow"></i></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a href="#">Loại tiền</a></li>
+                                                        <li><a href="#">Điều khoản thanh toán</a></li>
+                                                        <li><a href="#">Phương thức vận chuyển</a></li>
+                                                        <li><a href="#">Nhóm giá bán</a></li>
+                                                        <li><a href="#">Tình trạng hợp đồng</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Báo cáo</a></li>
-                                        <li><a href="#">Trợ giúp</a></li>
+                                        
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tiện ích</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a href="#">Nhập số dư đầu kỳ</a></li>
+                                                <li><a href="#">Đánh lại số chứng từ</a></li>
+                                                <li><a href="#">Tìm kiếm chứng từ</a></li>
+                                                <li><a href="#">Nhập dữ liệu từ file excel</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Báo cáo</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Trợ giúp</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
-                        <div class="col-md-2">
+
+                        <div class="col-md-auto">
                             <div class="hotline">
                                 <i class="fas fa-phone"></i>
                                 <span>0868.213.466</span>
                                 <span>1900.56.56.53</span>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-auto r-110">
                             <ul class="plv">
                                 <li><a href="#">Phiên làm việc</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-1 text-right">
+                        <div class="col-md-auto r-0">
                             <ul>
                                 <!-- Profile Menu -->
                                 <li class="btn-group user-account">
@@ -136,64 +215,6 @@
                 </div>
             </div>
 
-            <aside class="offcanvas-menu">
-                <div class="offcanvas-button">
-                    <a href="#" class="btn wave-effect offcanvas-toggle font-20"><span aria-hidden="true">&times;</span></a>
-                </div>
-                <h5 class="offcanvas-title">List Group</h4>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-
-                    <h5 class="offcanvas-title">List Group</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Cras justo odio
-                                <span class="badge badge-primary badge-pill">14</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Dapibus ac facilisis in
-                                <span class="badge badge-primary badge-pill">2</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Morbi leo risus
-                                <span class="badge badge-primary badge-pill">1</span>
-                            </li>
-                        </ul>
-
-                        <h5 class="offcanvas-title">List Group Content</h4>
-                            <div class="list-group list-group-flush">
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small>3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <small>Donec id elit non mi porta.</small>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <small class="text-muted">Donec id elit non mi porta.</small>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <small class="text-muted">Donec id elit non mi porta.</small>
-                                </a>
-                            </div>
-            </aside>
-
             <!-- Main Menu -->
             <div class="sidebar">
                 <div class="logo">
@@ -201,174 +222,245 @@
                         <span class="logo-emblem"><img src="images/logo.png" alt="BA" /></span>
                     </a>
                 </div>
-                <ul id="sidebarCookie">
-                    <li class="spacer"></li>
-                    <li class="spacer"></li>
-                    <li class="nav-item">
-                        <a class="nav-link wave-effect collapsed wave-effect" data-parent="#sidebarCookie" data-toggle="collapse" href="#navDashboard" aria-expanded="false" aria-controls="page-dashboards">
-                            <i class="feather icon-grid"></i>
-                            <span class="menu-title">TIỀN MẶT & NGÂN HÀNG</span>
-                            <i class="feather icon-chevron-down down-arrow"></i>
-                        </a>
-                        <div class="collapse" id="navDashboard">
-                            <ul class="flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/">
-                                        <i class="feather icon-layout"></i>
-                                        <span class="menu-title">Dashboard</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/">
-                                        <i class="feather icon-shopping-bag"></i>
-                                        <span class="menu-title">eCommerce</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link js-darkSidebar wave-effect" href="javascript: void();">
-                                        <i class="feather icon-shopping-bag"></i>
-                                        <span class="menu-title">Toggle Sidebar Color</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navPageLayouts" aria-expanded="false" aria-controls="page-layouts">
-                            <i class="feather icon-sidebar"></i>
-                            <span class="menu-title">MUA HÀNG</span>
-                            <i class="feather icon-chevron-down down-arrow"></i>
-                        </a>
-                        <div class="collapse" id="navPageLayouts">
-                            <ul class="flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/">
-                                        <i class="feather icon-layout"></i>
-                                        <span class="menu-title">Default</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/boxed">
-                                        <i class="feather icon-bold"></i>
-                                        <span class="menu-title">Boxed</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/horizontal">
-                                        <i class="feather icon-pause"></i>
-                                        <span class="menu-title">Horizontal Menu</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/boxedhorizontal">
-                                        <i class="feather icon-copy"></i>
-                                        <span class="menu-title">Boxed &amp; Horizontal</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navElements" aria-expanded="false" aria-controls="page-elements">
-                            <i class="feather icon-layout"></i>
-                            <span class="menu-title">BÁN HÀNG</span>
-                            <i class="feather icon-chevron-down down-arrow"></i>
-                        </a>
-                        <div class="collapse" id="navElements">
-                            <ul class="flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/elements/bootstrap">
-                                        <i class="feather icon-bold"></i>
-                                        <span class="menu-title">Bootstrap</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/elements/gallery">
-                                        <i class="feather icon-image"></i>
-                                        <span class="menu-title">Gallery</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/elements/cards">
-                                        <i class="feather icon-credit-card"></i>
-                                        <span class="menu-title">Cards</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/elements/grid">
-                                        <i class="feather icon-grid"></i>
-                                        <span class="menu-title">Grid</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navMailbox" aria-expanded="false" aria-controls="page-mailbox">
-                            <i class="feather icon-mail"></i>
-                            <span class="menu-title">KHO</span>
-                            <i class="feather icon-chevron-down down-arrow"></i>
-                        </a>
-                        <div class="collapse" id="navMailbox">
-                            <ul class="flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox">
-                                        <i class="feather icon-inbox"></i>
-                                        <span class="menu-title">Inbox</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox/email">
-                                        <i class="feather icon-mail"></i>
-                                        <span class="menu-title">Email</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/app/inbox/compose">
-                                        <i class="feather icon-send"></i>
-                                        <span class="menu-title">Compose</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://bootadmin.org/app/calendar" class="nav-link wave-effect nav-single">
-                            <i class="feather icon-calendar"></i>
-                            <span class="menu-title">GIÁ THÀNH</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link wave-effect collapsed" data-parent="#sidebarCookie" data-toggle="collapse" href="#navProfilebox" aria-expanded="false" aria-controls="page-profilebox">
-                            <i class="feather icon-users"></i>
-                            <span class="menu-title">TỔNG HỢP</span>
-                            <i class="feather icon-chevron-down down-arrow"></i>
-                        </a>
-                        <div class="collapse" id="navProfilebox">
-                            <ul class="flex-column sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/account/profile">
-                                        <i class="feather icon-user"></i>
-                                        <span class="menu-title">Profile</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/account/billing">
-                                        <i class="feather icon-dollar-sign"></i>
-                                        <span class="menu-title">Billing</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link wave-effect" href="http://bootadmin.org/account/settings">
-                                        <i class="feather icon-settings"></i>
-                                        <span class="menu-title">Settings</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="spacer"></li>
-                </ul>
+                <nav id="sidebar" class="sidebar-wrapper">
+                    <div class="sidebar-menu">
+                        <ul>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/ngan-sach.png" alt="">
+                                    <span>Tiền mặt ngân hàng</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Phiếu thu</a></li>
+                                        <li><a href="#">Phiếu chi</a></li>
+                                        <li><a href="#">Báo nợ</a></li>
+                                        <li><a href="#">Báo có</a></li>
+                                        <li><a href="#">Thẻ tín dụng</a></li>
+                                        <li><a href="#">Chuyển tiền nội bộ</a></li>
+                                        <li><a href="#">Tiền đang chuyển</a></li>
+                                        <li><a href="#">Kiểm kê quỹ</a></li>
+                                        <li><a href="#">Đối chiếu ngân hàng</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/mua-hang.png" alt="">
+                                    <span>Mua hàng</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Đơn mua hàng</a></li>
+                                        <li><a href="#">Mua hàng qua kho</a></li>
+                                        <li><a href="#">Mua hàng không qua kho</a></li>
+                                        <li><a href="#">Nhận hóa đơn</a></li>
+                                        <li><a href="#">Mua dịch vụ</a></li>
+                                        <li><a href="#">Hàng mua trả lại, giảm giá</a></li>
+                                        <li><a href="#">Trả tiền nhà cung cấp</a></li>
+                                        <li><a href="#">Đối trừ chứng từ</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/ban-hang.png" alt="">
+                                    <span>Bán hàng</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Báo giá</a></li>
+                                        <li><a href="#">Đơn đặt hàng</a></li>
+                                        <li><a href="#">Bán hàng chưa thu tiền</a></li>
+                                        <li><a href="#">Bán hàng thu tiền ngay</a></li>
+                                        <li><a href="#">Xuất hóa đơn</a></li>
+                                        <li><a href="#">Hàng bán trả lại, giảm giá</a></li>
+                                        <li><a href="#">Thu tiền khách hàng</a></li>
+                                        <li><a href="#">Tính lãi nợ</a></li>
+                                        <li><a href="#">Thông báo công nợ</a></li>
+                                        <li><a href="#">Đối trừ chứng từ</a></li>
+                                        <li><a href="#">Thiết lập chính sách giá</a></li>
+                                        <li><a href="#">Tính giá bán</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/kho.png" alt="">
+                                    <span>Kho</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Nhập kho</a></li>
+                                        <li><a href="#">Xuất kho</a></li>
+                                        <li><a href="#">Chuyển kho</a></li>
+                                        <li><a href="#">Lệnh lắp ráp, tháo dỡ</a></li>
+                                        <li><a href="#">Kiểm kê kho</a></li>
+                                        <li><a href="#">Tính giá xuất kho</a></li>
+                                        <li><a href="#">Sắp xếp thứ tự nhập xuất</a></li>
+                                        <li><a href="#">Cập nhật giá nhập kho thành phẩm</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/gia-thanh.png" alt="">
+                                    <span>Giá thành</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Định mức nguyên vật liệu</a></li>
+                                        <li><a href="#">Định mức giá thành phẩm</a></li>
+                                        <li><a href="#">Định mức phân bổ chi phí</a></li>
+                                        <li><a href="#">Chi phí dở dang đầu kỳ</a></li>
+                                        <li><a href="#">Phương pháp giản đơn</a></li>
+                                        <li><a href="#">Phương pháp hệ số</a></li>
+                                        <li><a href="#">Phương pháp tỷ lệ</a></li>
+                                        <li><a href="#">Giá thành theo công trình, vụ việc</a></li>
+                                        <li><a href="#">Giá thành theo đơn hàng</a></li>
+                                        <li><a href="#">Giá thành theo hợp đồng</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/tong-hop.png" alt="">
+                                    <span>Tổng hợp</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Chứng từ nghiệp vụ khác</a></li>
+                                        <li><a href="#">Kết chuyển lãi lỗ</a></li>
+                                        <li><a href="#">Chứng từ ghi sổ</a></li>
+                                        <li><a href="#">Chi phí trả trước</a></li>
+                                        <li><a href="#">Phân bổ chi phí trả trước</a></li>
+                                        <li><a href="#">Tính tỷ giá xuất quỹ</a></li>
+                                        <li><a href="#">Đánh giá lại tài khoản ngoại tệ</a></li>
+                                        <li><a href="#">Bù trừ công nợ</a></li>
+                                        <li><a href="#">Khóa sổ kỳ kế toán</a></li>
+                                        <li><a href="#">Bỏ khóa sổ kỳ kế toán</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/quan-ly-hoa-don.png" alt="">
+                                    <span>Quản lý hóa đơn</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Khởi tạo mẫu hóa đơn</a></li>
+                                        <li><a href="#">Đăng ký sử dụng hóa đơn</a></li>
+                                        <li><a href="#">Thông báo phát hành hóa đơn</a></li>
+                                        <li><a href="#">Hủy hóa đơn</a></li>
+                                        <li><a href="#">Mất, cháy, hỏng hóa đơn</a></li>
+                                        <li><a href="#">Xuất hóa đơn</a></li>
+                                        <li><a href="#">Điều chỉnh thông báo phát hành</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/hoa-don-dien-tu.png" alt="">
+                                    <span>Hóa đơn điện tử</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Danh sách hóa đơn</a></li>
+                                        <li><a href="#">Hóa đơn thay thế</a></li>
+                                        <li><a href="#">Hóa đơn điều chỉnh</a></li>
+                                        <li><a href="#">Hóa đơn hủy</a></li>
+                                        <li><a href="#">Chuyển đổi hóa đơn</a></li>
+                                        <li><a href="#">Kết nối hóa đơn điện tử</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/thue.png" alt="">
+                                    <span>Thuế</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Tờ khai thuế GTGT khấu trừ (01/GTGT)</a></li>
+                                        <li><a href="#">Tờ khai thuế GTGT cho dự án đầu tư (02/GTGT)</a></li>
+                                        <li><a href="#">Quyết toán thuế TNDN năm (03/TNDN)</a></li>
+                                        <li><a href="#">Tờ khai thuế tài nguyên (01/TAIN)</a></li>
+                                        <li><a href="#">Quyết toán thuế tài nguyên (02/TAIN)</a></li>
+                                        <li><a href="#">Khấu trừ thuế GTGT</a></li>
+                                        <li><a href="#">Nộp thuế</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/cung-ung-dich-vu.png" alt="">
+                                    <span>Công cụ dụng cụ</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Khai báo CCDC đầu kỳ</a></li>
+                                        <li><a href="#">Mua và ghi tăng CCDC</a></li>
+                                        <li><a href="#">Ghi tăng CCDC khác</a></li>
+                                        <li><a href="#">Phân bổ CCDC</a></li>
+                                        <li><a href="#">Kiểm kê CCDC</a></li>
+                                        <li><a href="#">Ghi giảm CCDC</a></li>
+                                        <li><a href="#">Điều chỉnh CCDC</a></li>
+                                        <li><a href="#">Điều chuyển CCDC</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/tai-san-co-dinh.png" alt="">
+                                    <span>Tài sản cố định</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Khai báo TSCĐ đầu kỳ</a></li>
+                                        <li><a href="#">Mua và ghi tăng TSCĐ</a></li>
+                                        <li><a href="#">Ghi tăng TSCĐ khác</a></li>
+                                        <li><a href="#">Tính khấu hao TSCĐ</a></li>
+                                        <li><a href="#">Kiểm kê TSCĐ</a></li>
+                                        <li><a href="#">Ghi giảm TSCĐ</a></li>
+                                        <li><a href="#">Điều chỉnh TSCĐ</a></li>
+                                        <li><a href="#">Điều chuyển TSCĐ</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/luong.png" alt="">
+                                    <span>Lương</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Chấm công</a></li>
+                                        <li><a href="#">Tổng hợp chấm công</a></li>
+                                        <li><a href="#">Bảng lương</a></li>
+                                        <li><a href="#">Hạch toán chi phí lương</a></li>
+                                        <li><a href="#">Nộp bảo hiểm</a></li>
+                                        <li><a href="#">Thanh toán lương</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <img src="images/icon/hop-dong.png" alt="">
+                                    <span>Hợp đồng</span>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">Hợp đồng mua</a></li>
+                                        <li><a href="#">Hợp đồng bán</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- sidebar-menu  -->
+                </nav>
             </div>
 
             <main>
@@ -439,7 +531,7 @@
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
-                                                
+
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
                                                 <li><a href="#">Bảng cân đối tài khoản</a></li>
@@ -574,147 +666,51 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 
     <script>
-        new Morris.Bar({
-            element: 'morrisBar1',
-            data: [{
-                    y: '5',
-                    a: 100,
-                    b: 90
-                },
-                {
-                    y: '6',
-                    a: 75,
-                    b: 65
-                },
-                {
-                    y: '7',
-                    a: 50,
-                    b: 40
-                },
-                {
-                    y: '8',
-                    a: 75,
-                    b: 65
-                },
-                {
-                    y: '9',
-                    a: 50,
-                    b: 40
-                },
-                {
-                    y: '10',
-                    a: 50,
-                    b: 40
-                },
-                {
-                    y: '11',
-                    a: 50,
-                    b: 40
-                },
-                {
-                    y: '12',
-                    a: 50,
-                    b: 40
-                },
-            ],
-            xkey: 'y',
-            ykeys: ['a', 'b'],
-            labels: ['Series A', 'Series B'],
-            barColors: ['#0266ff', '#80bdff'],
-            gridTextSize: 13,
-            hideHover: 'auto',
-            resize: false,
-            stacked: true
-        });
+        $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
 
-        new Morris.Line({
-            element: 'morrisBar2',
-            data: [{
-                    day: '13/10',
-                    pushups: 10,
-                    beers: 2
-                },
-                {
-                    day: '14/10',
-                    pushups: 10,
-                    beers: 7
-                },
-                {
-                    day: '15/10',
-                    pushups: 5,
-                    beers: 3
-                },
-                {
-                    day: '16/10',
-                    pushups: 5,
-                    beers: 4
-                },
-                {
-                    day: '17/10',
-                    pushups: 12,
-                    beers: 15
-                },
-                {
-                    day: '18/10',
-                    pushups: 9,
-                    beers: 18
-                },
-                {
-                    day: '19/10',
-                    pushups: 14,
-                    beers: 20
-                },
-            ],
-            xkey: 'day',
-            parseTime: false,
-            ykeys: ['pushups', 'beers'],
-            labels: ['Pushups', 'Beers'],
-            lineColors: ['#a4cd3c', '#398bf7'],
-            hideHover: 'auto',
-        });
-
-
-        new Morris.Donut({
-            element: 'morrisBar3',
-            data: [{
-                    label: "Thu",
-                    value: 70
-                },
-                {
-                    label: "Trả",
-                    value: 30
-                },
-            ],
-            colors: ['#0266ff', '#80bdff'],
-            resize: true
-        });
-
-
-        $(window).on("load resize ", function() {
-            var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-            $('.tbl-header').css({
-                'padding-right': scrollWidth
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                $('.dropdown-submenu .show').removeClass("show");
             });
-        }).resize();
+
+            return false;
+        });
 
 
-        (function($) {
-            $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
-                if (!$(this).next().hasClass('show')) {
-                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-                }
-                var $subMenu = $(this).next(".dropdown-menu");
-                $subMenu.toggleClass('show');
 
-                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-                    $('.dropdown-submenu .show').removeClass("show");
-                });
 
-                return false;
-            });
-        })(jQuery)
 
+        $(".sidebar-dropdown > a").click(function() {
+            $(".sidebar-submenu").slideUp(200);
+            if (
+                $(this)
+                .parent()
+                .hasClass("active")
+            ) {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                    .parent()
+                    .removeClass("active");
+            } else {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                    .next(".sidebar-submenu")
+                    .slideDown(200);
+                $(this)
+                    .parent()
+                    .addClass("active");
+            }
+        });
+
+        $("#close-sidebar").click(function() {
+            $(".page-wrapper").removeClass("toggled");
+        });
+        $("#show-sidebar").click(function() {
+            $(".page-wrapper").addClass("toggled");
+        });
     </script>
-</body>
-
-</html>
+</body></html>
